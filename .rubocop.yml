@@ -34,6 +34,7 @@ AllCops:
     - 'tmp/**/*'
     - 'terraform/**/*'
     - 'openapi/**/*'
+  SuggestExtensions: false
   NewCops: enable
 
 ## sider's rubocop stops during this file
