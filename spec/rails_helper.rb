@@ -64,4 +64,5 @@ RSpec.configure do |config|
   config.include FactoryBot::Syntax::Methods
   # user でログインした状態を実現することが出来る
   config.include Devise::Test::IntegrationHelpers, type: :system
+  config.include Devise::Test::IntegrationHelpers, type: :request
 end

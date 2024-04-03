@@ -41,11 +41,11 @@ ja:
       not_saved: "エラーが発生したため%{resource}は保存されませんでした。"
 
   devise:
-    failure:
-      invalid: "%{authentication_keys}またはパスワードが違います。"
+  failure:
+    invalid: "%{authentication_keys}またはパスワードが違います。"
     registrations:
       user:
-        signed_up: ユーザー登録に成功しました。
+        unauthenticated: "ログインしてください。"
     sessions:
       new:
         sign_in: ログイン
