@@ -62,4 +62,6 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
   # FactoryBot というクラス名をつけなくても FactoryBot のメソッドを spec ファイル内で呼び出せる
   config.include FactoryBot::Syntax::Methods
+  # user でログインした状態を実現することが出来る
+  config.include Devise::Test::IntegrationHelpers, type: :system
 end
